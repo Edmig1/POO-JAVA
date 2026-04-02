@@ -6,13 +6,16 @@ public class MaquinaVenda{
      static Scanner entrada = new Scanner(System.in);
     public static void exibeOptions(){
         System.out.print(
-                "[1] Comprar chiclete\n" +
-                "[2] Comprar chocolate\n" +
-                "[3] Comprar pipoca\n" +
-                "[4] Comprar suco\n" +
-                "[5] Exibir total vendido até agora\n" +
-                "[6] Exibir histórico de compras\n" +
-                "[7] Sair \n \n");
+                """
+                        [1] Comprar chiclete
+                        [2] Comprar chocolate
+                        [3] Comprar pipoca
+                        [4] Comprar suco
+                        [5] Exibir total vendido até agora
+                        [6] Exibir histórico de compras
+                        [7] Sair\s
+                        \s
+                        """);
     }
 
     public static void compra(String produto,ArrayList<String> prod){
@@ -46,10 +49,10 @@ public class MaquinaVenda{
                  qtd[3]+=1;
                  break;
              case 5:
-                    totalVendas(prod);
+                    imprimeArray(qtd);
                  break;
              case 6:
-                 imprimeArray(qtd);
+                 imprimeHistoricco(prod);
                  break;
              default:
                  System.out.println("[Erro], apenas opções de 1 a 6!");
@@ -71,6 +74,11 @@ public class MaquinaVenda{
             }
         }
      }
+    public static void imprimeHistoricco(ArrayList<String> prod){
+        for(String p : prod){
+            System.out.println(p);
+        }
+    }
     public static void main(String [] args){
         ArrayList<String> produtos = new ArrayList<>();
         int[] qtd = {0,0,0,0};
