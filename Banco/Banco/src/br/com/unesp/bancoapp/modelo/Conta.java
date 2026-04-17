@@ -1,13 +1,13 @@
+package br.com.unesp.bancoapp.modelo;
+
+public class Conta{
+    protected int numero;
+    protected Cliente  titular;
+    protected double saldo;
 
 
-class Conta{
-    private int numero;
-    private Cliente  titular;
-    private double saldo;
-
-
-    public Conta(int num, Cliente titular){
-        this.numero = num;
+    public Conta(int numero, Cliente titular){
+        this.numero = numero;
         this.titular = titular;
     }
 
@@ -19,6 +19,9 @@ class Conta{
             this.saldo -=valor;
             return true;
         }
+    }
+    public void atualizaSaldo(double taxa){
+        this.saldo += this.saldo *taxa;
     }
 
     public void deposita(double quantidade){

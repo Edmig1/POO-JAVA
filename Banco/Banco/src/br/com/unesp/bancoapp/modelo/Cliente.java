@@ -1,3 +1,5 @@
+package br.com.unesp.bancoapp.modelo;
+
 public class Cliente {
 
     private String nome;

@@ -1,3 +1,8 @@
+package br.com.unesp.bancoapp.aplicacao;
+import br.com.unesp.bancoapp.modelo.*;
+import br.com.unesp.bancoapp.servico.ControleBonificacoes;
+
+
 public class App{
 
     public static void main( String[] args){
@@ -23,6 +28,16 @@ public class App{
         }else{
             System.out.println("Saldo insuficiente para tal transferência");
         }
+        Gerente gerente1 = new Gerente("Jorge Marques","40028922", 100.0,5.0);
+        System.out.println("Nome do gerente: "+ gerente1.getNome());
+        Funcionario funcionario1 = new Funcionario("Xi Jinping","123163", 20.0);
+        System.out.println("Nome do funcionário: "+ funcionario1.getNome());
+
+        ControleBonificacoes controle = new ControleBonificacoes();
+        controle.registraBonificacao(funcionario1);
+        controle.registraBonificacao(gerente1);
+        System.out.println("Bonificação dos funcionario: " + controle.getTotalBonificacao());
+
     }
 
 }

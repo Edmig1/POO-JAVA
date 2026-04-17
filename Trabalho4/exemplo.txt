@@ -1,2 +1,11 @@
-Olá, este é um arquivo de teste.
-Linha 2 do arquivo.
+Ao vestir sua jaqueta, FlutterShy deixa de ser apenas um espectador dentro do próprio corpo. Sua consciência é suprimida enquanto seu irmão mais velho, FlutterPunk, assume o controle — uma entidade marcada por impulsos violentos, pensamentos caóticos e uma sede insaciável por destruição.
+Sob esse domínio, cada movimento se torna mais agressivo, imprevisível e brutal, como se o corpo fosse guiado por puro instinto assassino.
+
+Dupla dinâmica: Como diz o velho ditado, 2 mentes pensam melhor do que 1, com o raciocino rápido dos 2 irmãos sincronizados dentro de si, FlutterShy e FlutterPunk conseguem executar mais uma ação padrão por turno por [valor] PE.
+
+Sente a Onda: FlutterPunk anexa os espinhos de sua jaqueta na sua arma, esses espinhos são imbuídos com uma toxina alucinógena, causando 1d12 pontos de dano e deixando o alvo debilitado por 1d3 rodadas por [valor] PE. O alvo pode fazer um teste de Fortitude DT(30) para evitar a condição e diminuir o dano para 1d8. a cada rodada, o alvo pode fazer um novo teste com +5 na DT para impedir o avanço da toxina em seu corpo.
+
+Aumenta o Som: FlutterPunk se conecta mentalmente com um adversário, a partir desse momento, eles deixam de ouvir tudo ao seu redor, e seu oponente fica atordoado e apenas consegue ouvir a Música Shoot For The Sun. por 1d4 rodadas. DT fortitude (30) reduz para pasmo.
+
+
+um jovem, com cabelo vermelho e uma presilha de borboleta prendendo seu cabelo, faça uma regata branca de uma banda de rock no seu corpo, e uma calça preta rasgada com algumas correntes presas no cinto, ele veste botas de rockeiro e usa alguns braceletes coloridos nos seus braços, ele tem uma feiçao juvenil e de alguém calmo e inocente.
