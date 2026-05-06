@@ -1,6 +1,6 @@
 package br.com.unesp.bancoapp.modelo;
 
-public class Conta{
+public abstract class Conta{
     protected int numero;
     protected Cliente  titular;
     protected double saldo;
