@@ -15,10 +15,10 @@ public class Triangulo extends FormaGeometrica {
 
     @Override
     public double area() {
-        return (this.base * this.altura);
+        return (this.base * this.altura)/2;
     }
     @Override
     public double perimetro(){
-        return (lado1+lado2+base)/2;
+        return (lado1+lado2+base);
     }
 }

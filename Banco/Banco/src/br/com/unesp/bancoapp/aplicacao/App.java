@@ -1,43 +1,28 @@
 package br.com.unesp.bancoapp.aplicacao;
+
+import br.com.unesp.bancoapp.servico.*;
 import br.com.unesp.bancoapp.modelo.*;
-import br.com.unesp.bancoapp.servico.ControleBonificacoes;
 
+public class App {
+    public static void main(String[] args) {
+        // ----- Funcionários -----
+        GerenciadorFuncionario gf = new GerenciadorFuncionario();
 
-public class App{
+        gf.cadastrar(new Gerente("Ana Souza", 6000.0, "Agência Centro"));
+        gf.cadastrar(new TecnicoBancario("Bruno Lima", 3000.0, "Atendimento", 10));
+        gf.cadastrar(new Diretor("Carla Mendes", 12000.0, "Diretoria Financeira"));
 
-    public static void main( String[] args){
-        Cliente cliente1 = new Cliente("Aura Reels da Silva Shorts","10");
-        Conta c1 = new ContaCorrente(1,cliente1,1000.0);
-        //c1.saldo = 67;
+        gf.exibirTodos();
 
-        Cliente cliente2 = new Cliente("Maria Juana","11");
-        Conta c2 = new ContaPoupanca(2,cliente2);
-        //c1.saldo = 241;
+        // ----- Clientes -----
+        GerenciadorCliente gc = new GerenciadorCliente();
 
-        System.out.println("Nome: "+c1.getTitular().getNome() + "\n" +"Número da conta: "+c1.getNumero()+ "\n" +"Saldo da conta: "+c1.getSaldo() +"\n");
+        Endereco e1 = new Endereco("Rua A","10","Centro","Bandeirantes","PR","86360-000");
+        Endereco e2 = new Endereco("Av B","200","Industrial","Londrina","PR","86000-000");
 
-        System.out.println("Nome: "+c2.getTitular().getNome() + "\n" +"Número da conta: "+c2.getNumero()+ "\n" +"Saldo da conta: "+c2.getSaldo()+"\n");
+        gc.cadastrar(new PessoaFisica("Miguel","123.456.789-00","43999999999","miguel@email.com",e1));
+        gc.cadastrar(new PessoaJuridica("Empresa X Ltda","12.345.678/0001-99","4333333333","contato@empresa.com",e2));
 
-        c1.deposita(10);
-        System.out.println("Valores após o depósito: " +c1.getSaldo());
-        c2.saca(5);
-        System.out.println("Valores após o saque: " +c2.getSaldo());
-
-        if(c1.transfere(c2,10)){
-            System.out.println("Valores após a transferência: " +c1.getSaldo()+" | "+c2.getSaldo());
-        }else{
-            System.out.println("Saldo insuficiente para tal transferência");
-        }
-        Gerente gerente1 = new Gerente("Jorge Marques","40028922", 100.0,5.0);
-        System.out.println("Nome do gerente: "+ gerente1.getNome());
-        Funcionario funcionario1 = new Funcionario("Xi Jinping","123163", 20.0);
-        System.out.println("Nome do funcionário: "+ funcionario1.getNome());
-
-        ControleBonificacoes controle = new ControleBonificacoes();
-        controle.registraBonificacao(funcionario1);
-        controle.registraBonificacao(gerente1);
-        System.out.println("Bonificação dos funcionario: " + controle.getTotalBonificacao());
-
+        gc.exibirTodos();
     }
-
 }

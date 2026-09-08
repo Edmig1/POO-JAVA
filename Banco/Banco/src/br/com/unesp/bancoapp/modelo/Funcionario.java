@@ -1,33 +1,14 @@
 package br.com.unesp.bancoapp.modelo;
 
-public class Funcionario {
+public abstract class Funcionario {
     protected String nome;
-    protected String CPF;
-    protected Double salario;
+    protected double salarioBase;
 
-    public Funcionario(String nome, String CPF, Double salario) {
+    public Funcionario(String nome, double salarioBase){
         this.nome = nome;
-        this.CPF = CPF;
-        this.salario = salario;
+        this.salarioBase = salarioBase;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public String getCPF() {
-        return CPF;
-    }
-
-    public Double getSalario() {
-        return salario;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public double getBonificacao(){
-        return this.salario *0.1;
-    }
+    public abstract double calcularSalario();
+    public abstract void exibirDados();
 }

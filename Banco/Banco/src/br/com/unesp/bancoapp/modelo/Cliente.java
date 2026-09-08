@@ -1,25 +1,15 @@
 package br.com.unesp.bancoapp.modelo;
 
-public class Cliente {
+public abstract class Cliente {
+    protected String telefone;
+    protected String email;
+    protected Endereco endereco;
 
-    private String nome;
-    private String CPF;
-
-    public Cliente(String nome, String cpf){
-        this.nome = nome;
-        this.CPF = cpf;
+    public Cliente(String telefone, String email, Endereco endereco){
+        this.telefone=telefone;
+        this.email=email;
+        this.endereco=endereco;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getCPF() {
-        return CPF;
-    }
-
+    public abstract void exibirDados();
 }

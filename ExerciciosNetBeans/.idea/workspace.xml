@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e30db0e3-d6d8-48e8-ac5b-190208a167f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CartaoWeb/CartaoWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Banco/Banco/src/br/com/unesp/bancoapp/aplicacao/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Banco/Banco/src/br/com/unesp/bancoapp/aplicacao/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Banco/Banco/src/br/com/unesp/bancoapp/modelo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Banco/Banco/src/br/com/unesp/bancoapp/modelo/PessoaFisica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Banco/Banco/src/br/com/unesp/bancoapp/modelo/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Banco/Banco/src/br/com/unesp/bancoapp/modelo/ContaCorrente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Banco/Banco/src/br/com/unesp/bancoapp/modelo/ContaPoupanca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Banco/Banco/src/br/com/unesp/bancoapp/modelo/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Banco/Banco/src/br/com/unesp/bancoapp/modelo/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Banco/Banco/src/br/com/unesp/bancoapp/modelo/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Banco/Banco/src/br/com/unesp/bancoapp/modelo/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Banco/Banco/src/br/com/unesp/bancoapp/servico/AtualizadorConta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Banco/Banco/src/br/com/unesp/bancoapp/servico/ControleBonificacoes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FormaGeometrica/src/br/com/unesp/FormaGeometrica/modelo/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FormaGeometrica/src/br/com/unesp/FormaGeometrica/modelo/Triangulo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="3FgX60BRQE340ZmsbhqSpXzKVry" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/Miguel/Documents/GitHub/POO-JAVA/ExerciciosNetBeans/src/Main.java"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e30db0e3-d6d8-48e8-ac5b-190208a167f6" name="Changes" comment="" />
+      <created>1782497508535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782497508535</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
